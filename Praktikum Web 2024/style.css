@@ -1,0 +1,70 @@
+.tabel-1 {
+    width:800px;
+    height:100px;
+    height:900px;
+}
+.gambar-2{
+    width:100%;
+    height:100%;
+    
+}
+
+.tabel-2{
+    transform: translate(250px,-10px);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    background-color: #DCDCDC;
+}
+
+.teks-1{
+    font-family: cursive;
+    transform: translate(300px,-10px);
+}
+
+.garis{
+    width:160px;
+    transform: translate(-14px,-20px);
+    border:4px solid #DCDCDC;
+    border-radius: 5px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.teks-2{
+    transform: translate(3px,-10px);
+}
+
+.gambar-2{
+    width:100%;
+    height:100%;
+    vertical-align: middle;
+    
+
+}
+
+.tabel-3 {
+    padding:none;
+    margin:none;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    border-collapse: collapse;
+    border: 2px solid #DCDCDC;
+    position:relative;
+    left:30px;
+    
+    
+}
+.tabel-4{
+    padding:none;
+    margin:none;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    border-collapse: collapse;
+    border: none;
+    position:relative;
+    left:30px;
+    
+}
+.gambar-3{
+    width:100%;
+    height:100%;
+    vertical-align: middle;
+    
+}
+
