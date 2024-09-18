@@ -1,0 +1,35 @@
+.tabel-1 {
+    width:auto;
+    height:500px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: #DCDCDC;
+    
+}
+
+.gambar-1{
+
+    border-radius: 50px;
+    transform: translate(9px,-20px);
+}
+
+
+
+.keterangan-1{
+    margin:4px;
+}
+.keterangan-2{
+    margin:4px;
+}
+.keterangan-3{
+    margin:4px;
+}
+
+.baris-1 {
+    padding:0px;
+    margin:0px;
+    
+}
+
+
+
