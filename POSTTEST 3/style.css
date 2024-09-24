@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+
+*, html {
+    padding: 0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+nav {
+    background-color:#B0E0E6;
+    display: flex;
+    justify-content: space-between;
+    padding:1rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 5rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: hsl(0, 0%, 7%);
+    font-weight: 600;
+    padding:8px 0;
+    transition: all;
+    transition-duration: 300ms;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+    font-size: 20px;;
+}    
+nav div img {
+    width:70px;
+}
+
+nav ul li a:hover {
+    color: orangered;
+    border-bottom: 1px solid black;
+}
+
+.teks-1{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap:5px;
+    font-family:"Expletus Sans";
+    font-size: 30px;
+}
+.teks-logo{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap:5px;
+    font-family:"Expletus Sans";
+    font-size: 30px;
+}
+nav div{
+    display: flex;
+}
+.video-1{
+    width:100%;
+    height:501px;
+}
+.menu-icon{
+    /* background-color: brown; */
+    font-size: 28px;
+    display:none;
+    
+}
+.menu-icon-1{
+    /* background-color: brown; */
+    font-size: 28px;
+    display:none;
+    
+}
+
+
+.footer-mom{
+    margin-top: auto;
+}
+
+.footer-content{
+    display:flex;
+    justify-content: space-between;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 4rem;
+    padding-bottom: 8rem;
+    background-color: #343434;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+footer div ul li a{
+    color:white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer div ul li a:hover{
+    color:#f18930;
+    border-bottom: 1px solid #f18930;
+}
+footer div ul{
+    list-style: none;
+    
+}
+.icon{
+    display: flex;
+    gap: 1rem;
+    size:px;
+}
+.footer-bottom{
+    text-align: center;
+    background-color:#f18930;
+}
+.us{
+    font-size:25px;
+    color:white;
+    padding-bottom: 15px;
+    
+}
+.links{
+    font-size:25px;
+    color:white;
+    padding-bottom: 15px;
+    
+}
+.follow{
+    font-size:25px;
+    color:white;
+    padding-bottom: 15px;
+}
+.icon-instagram{
+    font-size: 25px;
+}
+.icon-facebook{
+    font-size: 25px;
+}
+.icon-twitter{
+    font-size: 25px;
+}
+.icon-github{
+    font-size: 25px;
+}
+.fa-envelope{
+    padding-right: 10px;
+}
+.fa-phone{
+    padding-right: 10px;
+}
+.fa-user{
+    padding-right: 10px;
+}
+.fa-location-dot{
+    padding-right: 10px;
+}
+
+.fa-solid{
+    padding-right: 10px;
+    padding-left: 30px;
+    
+}
+.fa-cart-shopping{
+    padding-right: 10px;
+    padding-left: 10px;;
+}
+.home{
+    transform: translate(-15px);
+}
+.gambar-carl{
+    padding-left: 10px;
+    padding-top: 40px;
+    
+}
+.line-1{
+    border-left: 2px solid rgb(255, 255, 255);
+    height:260px;
+    margin-top: 40px;
+    margin-left: 90px;
+    
+
+}
+.line-3{
+    border-left: 2px solid rgb(255, 255, 255);
+    height:260px;
+    margin-top: 40px;
+    margin-left: 90px;
+    
+
+}
+
+.utama{
+    display: flex;
+    
+}
+.teks-carl{
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 19px;
+    color: white;
+}
+.teks-carl2{
+    padding-top: 10px;
+    padding-bottom: 15px;
+    color: white;
+}
+.teks-carl3{
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 19px;
+    color: white;
+}
+.teks-carl4{
+    padding-top: 10px;
+    padding-bottom: 15px;
+    color: white;
+}
+.line-2{
+    width:1324px;
+    height:2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    background-color: white;
+}
+.mok{
+    display:flex;
+    padding-left: 48px;
+    padding-bottom: 16px;
+    gap:1rem;
+    
+}
+.mok-1{
+    width:300px;
+    border-radius: 20px;
+}
+.mok-2{
+    width:300px;
+    border-radius: 20px;
+}
+.mok-3{
+    width:300px;
+    border-radius: 20px;
+}
+.mok-4{
+    width:300px;
+    border-radius: 20px;
+}
+.mokk{
+    display:flex;
+    padding-left: 48px;
+    padding-bottom: 16px;
+    gap:1rem;
+}
+.mok-5{
+    width:300px;
+    border-radius: 20px;
+}
+.mok-6{
+    width:300px;
+    border-radius: 20px;
+}
+.mok-7{
+    width:300px;
+    border-radius: 20px;
+}
+.mok-8{
+    width:300px;
+    border-radius: 20px;
+}
+.mokkk{
+    display:flex;
+    padding-left: 48px;
+    padding-bottom: 50px;
+    gap:1rem;
+}
+.mok-9{
+    width:300px;
+    border-radius: 20px;
+}
+.mok-10{
+    width:300px;
+    border-radius: 20px;
+}
+.mok-11{
+    width:300px;
+    border-radius: 20px;
+}
+.mok-12{
+    width:300px;
+    border-radius: 20px;
+}
+.brand-1{
+    color:white;
+    font-size: 30px;
+    display: flex;
+   padding-left: 600px;
+   padding-bottom: 48px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+@media only screen and (max-width:800px){
+    nav{
+        flex-wrap: wrap;
+    }
+    nav ul{
+        flex-direction: column;
+        width:100%;
+    }
+    .menu-icon-1{
+        
+        
+        display:flex;
+        align-items: center;
+    }
+
+    nav ul.hidden-1{
+        display:none
+    }
+}
